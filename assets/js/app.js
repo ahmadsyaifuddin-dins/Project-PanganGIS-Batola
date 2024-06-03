@@ -73,6 +73,9 @@ function onEachFeature(feature, layer) {
     });
 }
 
+map.attributionControl.addAttribution('Produksi Pangan &copy; <a href="https://baritokualakab.bps.go.id/">BPS Batola</a>');
+
+
 // GeoJSON layer
 let geojson;
 
