@@ -1,0 +1,135 @@
+Kecamatan TABUNGANEN
+Pangan Padi    : 45189.00 (ton)
+Pangan Jagung  : 10.00 (ton)
+Pangan Kedelai : 26.00 (ton)
+Pangan Kacang Hijau : 0 (ton)
+Pangan Ubi Kayu : 0 (ton)
+Pangan Ubi Jalar : 0 (ton)
+
+Kecamatan TAMBAN
+Pangan Padi    : 28352.00 (ton)
+Pangan Jagung  : 58.00 (ton)
+Pangan Kedelai : 43.00 (ton)
+Pangan Kacang Hijau : 0 (ton)
+Pangan Ubi Kayu : 0 (ton)
+Pangan Ubi Jalar : 0 (ton)
+
+Kecamatan MEKAR SARI
+Pangan Padi    : 23005.00 (ton)
+Pangan Jagung  : 10.00 (ton)
+Pangan Kedelai : 19.00 (ton)
+Pangan Kacang Hijau : 0 (ton)
+Pangan Ubi Kayu : 0 (ton)
+Pangan Ubi Jalar : 6130.00 (ton)
+
+Kecamatan ANJIR PASAR
+Pangan Padi    : 32762.00 (ton)
+Pangan Jagung  : 991.00 (ton)
+Pangan Kedelai : 143.00 (ton)
+Pangan Kacang Hijau : 0 (ton)
+Pangan Ubi Kayu : 0 (ton)
+Pangan Ubi Jalar : 434.00 (ton)
+
+Kecamatan ANJIR MUARA
+Pangan Padi    : 27832.00 (ton)
+Pangan Jagung  : 39.00 (ton)
+Pangan Kedelai : 26.00 (ton)
+Pangan Kacang Hijau : 0 (ton)
+Pangan Ubi Kayu : 0 (ton)
+Pangan Ubi Jalar : 120.00 (ton)
+
+Kecamatan ALALAK
+Pangan Padi    : 12918.00 (ton)
+Pangan Jagung  : 10.00 (ton)
+Pangan Kedelai : 21.00 (ton)
+Pangan Kacang Hijau : 0 (ton)
+Pangan Ubi Kayu : 0 (ton)
+Pangan Ubi Jalar : 160.00 (ton)
+
+Kecamatan MANDASTANA
+Pangan Padi    : 19890.00 (ton)
+Pangan Jagung  : 24.00 (ton)
+Pangan Kedelai : 26.00 (ton)
+Pangan Kacang Hijau : 0 (ton)
+Pangan Ubi Kayu : 0 (ton)
+Pangan Ubi Jalar : 1141.00 (ton)
+
+Kecamatan JEJANGKIT
+Pangan Padi    : 15354.00 (ton)
+Pangan Jagung  : 97.00 (ton)
+Pangan Kedelai : 26.00 (ton)
+Pangan Kacang Hijau : 0 (ton)
+Pangan Ubi Kayu : 0 (ton)
+Pangan Ubi Jalar : 3.00 (ton)
+
+Kecamatan BELAWANG
+Pangan Padi    : 20888.00 (ton)
+Pangan Jagung  : 193.00 (ton)
+Pangan Kedelai : 24.00 (ton)
+Pangan Kacang Hijau : 0 (ton)
+Pangan Ubi Kayu : 0 (ton)
+Pangan Ubi Jalar : 81.00 (ton)
+
+Kecamatan WANARAYA
+Pangan Padi    : 10945.00 (ton)
+Pangan Jagung  : 1176.00 (ton)
+Pangan Kedelai : 86.00 (ton)
+Pangan Kacang Hijau : 9.00 (ton)
+Pangan Ubi Kayu : 0 (ton)
+Pangan Ubi Jalar : 1769.00 (ton)
+
+Kecamatan BARAMBAI
+Pangan Padi    : 30076.00 (ton)
+Pangan Jagung  : 29.00 (ton)
+Pangan Kedelai : 46.00 (ton)
+Pangan Kacang Hijau : 0 (ton)
+Pangan Ubi Kayu : 0 (ton)
+Pangan Ubi Jalar : 3.00 (ton)
+
+Kecamatan RANTAU BADAUH
+Pangan Padi    : 28166.00 (ton)
+Pangan Jagung  : 492.00 (ton)
+Pangan Kedelai : 95.00 (ton)
+Pangan Kacang Hijau : 0 (ton)
+Pangan Ubi Kayu : 0 (ton)
+Pangan Ubi Jalar : 984.00 (ton)
+
+Kecamatan CERBON
+Pangan Padi    : 19810.00 (ton)
+Pangan Jagung  : 386.00 (ton)
+Pangan Kedelai : 91.00 (ton)
+Pangan Kacang Hijau : 0 (ton)
+Pangan Ubi Kayu : 0 (ton)
+Pangan Ubi Jalar : 317.00 (ton)
+
+Kecamatan BAKUMPAI
+Pangan Padi    : 17543.00 (ton)
+Pangan Jagung  : 116.00 (ton)
+Pangan Kedelai : 18.00 (ton)
+Pangan Kacang Hijau : 0 (ton)
+Pangan Ubi Kayu : 0 (ton)
+Pangan Ubi Jalar : 81.00 (ton)
+
+Kecamatan MARABAHAN
+Pangan Padi    : 14371.00 (ton)
+Pangan Jagung  : 919.00 (ton)
+Pangan Kedelai : 60.00 (ton)
+Pangan Kacang Hijau : 3.00 (ton)
+Pangan Ubi Kayu : 0 (ton)
+Pangan Ubi Jalar : 1298.00 (ton)
+
+Kecamatan TABUKAN
+Pangan Padi    : 21310.00 (ton)
+Pangan Jagung  : 58.00 (ton)
+Pangan Kedelai : 24.00 (ton)
+Pangan Kacang Hijau : 0 (ton)
+Pangan Ubi Kayu : 0 (ton)
+Pangan Ubi Jalar : 0 (ton)
+
+Kecamatan KURIPAN
+Pangan Padi    : 920.00 (ton)
+Pangan Jagung  : 275.00 (ton)
+Pangan Kedelai : 7.00 (ton)
+Pangan Kacang Hijau : 0 (ton)
+Pangan Ubi Kayu : 0 (ton)
+Pangan Ubi Jalar : 0 (ton)

@@ -1,0 +1,13 @@
+#map {
+    height: 525px;
+    border-radius: 10px;
+}
+
+* {
+    font-family: 'system-ui';
+}
+
+.judul {
+    padding: 1px;
+    text-align: center;
+}

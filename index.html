@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebGIS Pangan Batola</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map { height: 600px; }
+        .info { padding: 6px 8px; background: white; background: rgba(255, 255, 255, 0.8); box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); border-radius: 5px; }
+        .info h4 { margin: 0 0 5px; color: #5a5959; }
+        .legend { text-align: left; line-height: 18px; color: #555; }
+        .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }
+        #panganSelect { margin: 10px; }
+    </style>
+    
+</head>
+<body>
+    <div class="judul">            
+        <h3><b> WebGIS Pangan Batola </b></h3>
+    </div>
+
+    <div id="map"></div>
+    <select id="panganSelect">
+        <option value="PADI">Padi</option>
+        <option value="JAGUNG">Jagung</option>
+        <option value="KEDELAI">Kedelai</option>
+        <option value="KACANG HIJAU">Kacang Hijau</option>
+        <option value="UBI KAYU">Ubi Kayu</option>
+        <option value="UBI JALAR">Ubi Jalar</option>
+    </select>
+
+    <center> <br> 
+        <b> Copyright &copy; <span id="year"></span> WebGIS Pangan Batola <br> Made with 🧠 by Ahmad Syaifuddin  </b>
+    </center>
+
+    <script>
+        // Get year Dynamic Footer
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="assets/js/leaflet-easyPrint-gh-pages/dist/bundle.js"></script>
+    <script src="assets/js/batola.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
