@@ -102,7 +102,7 @@ info.onAdd = function (_map) {
 // Method to update info control based on feature properties
 info.update = function (props) {
     this._div.innerHTML = '<h4>Produksi Pangan di Kab. Batola 🌾</h4>' +  (props ?
-        '<b>' + props.KECAMATAN + '</b><br />' + selectedPangan + ': ' + props.PANGAN[selectedPangan] + ' ton'
+        '<b>' + props.KECAMATAN + '</b><br />' + selectedPangan + ': ' + props.PANGAN[selectedPangan] + '/ton'
         : 'Arahkan kursor ke Kecamatan');
 };
 
