@@ -1,11 +1,27 @@
 // Map initialization
 let map = L.map('map').setView([-3.06522, 114.6454817], 9);
 
-// Tile layer
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+// Tile layer for OpenStreetMap
+let osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 14,
     attribution: '© OpenStreetMap'
-}).addTo(map);
+});
+
+// Tile layer for OpenTopoMap
+let topoLayer = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+    maxZoom: 14,
+    attribution: '© OpenTopoMap'
+});
+
+// Add OpenStreetMap layer to map by default
+topoLayer.addTo(map);
+
+// Layer control
+let baseLayers = {
+    "Topographic Map": topoLayer,
+    "OpenStreetMap": osmLayer
+};
+
 
 // Initial selected pangan
 let selectedPangan = "PADI";
@@ -20,8 +36,6 @@ function getColor(d) {
            d > 1000  ? '#d9f0a3' : // Hijau terang
                       '#FFEDA0';   // Krim
 }
-
-
 
 // Style function
 function style(feature) {
@@ -75,7 +89,6 @@ function onEachFeature(feature, layer) {
 
 map.attributionControl.addAttribution('Produksi Pangan &copy; <a href="https://baritokualakab.bps.go.id/">BPS Batola</a>');
 
-
 // GeoJSON layer
 let geojson;
 
@@ -106,7 +119,11 @@ info.update = function (props) {
         : 'Arahkan kursor ke Kecamatan');
 };
 
+// ADD to map info 
 info.addTo(map);
+
+// ADD to map Layer Control
+L.control.layers(baseLayers).addTo(map);
 
 // Legend control
 let legend = L.control({position: 'bottomright'});
@@ -130,7 +147,6 @@ legend.onAdd = function (_map) {
     return div;
 };
 
-
 legend.addTo(map);
 
 // Function to handle the dropdown change
@@ -141,7 +157,6 @@ document.getElementById('panganSelect').addEventListener('change', function() {
 
 // Initial map update
 updateMap();
-
 
 L.easyPrint({
     title: 'Cetak Peta Kabupaten',
