@@ -1,25 +1,22 @@
 // Map initialization
 let map = L.map('map').setView([-3.06522, 114.6454817], 9);
 
-// Tile layer for OpenStreetMap
-let osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 14,
-    attribution: '© OpenStreetMap'
-});
 
-// Tile layer for OpenTopoMap
-let topoLayer = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-    maxZoom: 14,
-    attribution: '© OpenTopoMap'
+// Layer Map Hybrid
+let hybridLayer = L.tileLayer('https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}', {
+    maxZoom: 25,
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+    '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+    'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
 });
 
 // Add OpenStreetMap layer to map by default
-topoLayer.addTo(map);
+hybridLayer.addTo(map);
 
 // Layer control
 let baseLayers = {
-    "Topographic Map": topoLayer,
-    "OpenStreetMap": osmLayer
+    "Hybrid" : hybridLayer
+    
 };
 
 
